@@ -4,8 +4,9 @@ import { motion } from "framer-motion";
 import {
   SiReact, SiNextdotjs, SiTypescript, SiJavascript, SiTailwindcss,
   SiNodedotjs, SiExpress, SiPostgresql, SiMongodb, SiGit, SiGithub,
-  SiDocker, SiVercel, SiAmazon, SiJest, SiHtml5, SiCss3,
+  SiDocker, SiVercel, SiJest, SiHtml5, SiCss,
 } from "react-icons/si";
+import { FaAws } from "react-icons/fa";
 
 const skillGroups = [
   {
@@ -17,7 +18,7 @@ const skillGroups = [
       { name: "JavaScript", icon: SiJavascript },
       { name: "Tailwind CSS", icon: SiTailwindcss },
       { name: "HTML5", icon: SiHtml5 },
-      { name: "CSS3", icon: SiCss3 },
+      { name: "CSS3", icon: SiCss },
     ],
   },
   {
@@ -36,7 +37,7 @@ const skillGroups = [
       { name: "GitHub", icon: SiGithub },
       { name: "Docker", icon: SiDocker },
       { name: "Vercel", icon: SiVercel },
-      { name: "AWS", icon: SiAmazon },
+      { name: "AWS", icon: FaAws },
       { name: "Jest", icon: SiJest },
     ],
   },
