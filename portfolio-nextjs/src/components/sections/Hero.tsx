@@ -52,7 +52,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.3 }}
         >
           <MapPin size={14} className="text-accent" />
-          Melbourne, Australia
+          Brisbane, Australia
         </motion.div>
 
         <motion.p
